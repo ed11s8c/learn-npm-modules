@@ -1,0 +1,23 @@
+{
+  "name": "learn-npm-modules",
+  "version": "1.0.0",
+  "description": "Sample project to learn how to create beautiful npm packages",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lnpm": "./bin/entry.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ed11s8c/learn-npm-modules.git"
+  },
+  "author": "Steven James Cooney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ed11s8c/learn-npm-modules/issues"
+  },
+  "homepage": "https://github.com/ed11s8c/learn-npm-modules#readme"
+}
